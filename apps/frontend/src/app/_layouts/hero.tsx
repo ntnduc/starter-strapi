@@ -13,20 +13,20 @@ import { Announcement } from "./announcement";
 export default function Hero() {
   const avatars = [
     {
-      url: "https://avatars.githubusercontent.com/u/45047261",
-      name: "AbderrahmaneMouzoune",
+      url: "https://avatars.githubusercontent.com/u/68223190?s…00&u=9bc21effaf9e9a11dbae7202a4f486afd6edbf4f&v=4",
+      name: "Duc Nguyen",
     },
     {
-      url: "https://avatars.githubusercontent.com/u/83463423",
-      name: "Ahmed-Mouzoune",
+      url: "https://avatars.githubusercontent.com/u/68223190?s…00&u=9bc21effaf9e9a11dbae7202a4f486afd6edbf4f&v=4",
+      name: "Duc Nguyen",
     },
     {
-      url: "https://avatars.githubusercontent.com/u/83534308",
-      name: "Zouiqad",
+      url: "https://avatars.githubusercontent.com/u/68223190?s…00&u=9bc21effaf9e9a11dbae7202a4f486afd6edbf4f&v=4",
+      name: "Duc Nguyen",
     },
     {
-      url: "https://avatars.githubusercontent.com/u/102341310",
-      name: "Teczer",
+      url: "https://avatars.githubusercontent.com/u/68223190?s…00&u=9bc21effaf9e9a11dbae7202a4f486afd6edbf4f&v=4",
+      name: "Duc Nguyen",
     },
   ];
   return (
@@ -50,7 +50,7 @@ export default function Hero() {
       <div className="mx-0 flex w-full max-w-full flex-col gap-4 py-1 sm:max-w-lg sm:flex-row md:mx-auto">
         <div className="flex w-full flex-col gap-2 sm:flex-row sm:gap-4">
           <Link
-            href="https://github.com/Ahmed-Mouzoune/nextjs-strapi-boilerplate"
+            href="https://github.com/ntnduc"
             target="_blank"
             className={cn(
               buttonVariants({
@@ -64,7 +64,7 @@ export default function Hero() {
             <GitHubLogoIcon className="size-5" /> Give a star ⭐{" "}
           </Link>
           <Link
-            href="https://github.com/new?template_name=nextjs-strapi-boilerplate&template_owner=Ahmed-Mouzoune"
+            href="https://github.com/ntnduc"
             target="_blank"
             className={cn(
               buttonVariants({

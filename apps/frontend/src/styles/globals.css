@@ -1,4 +1,4 @@
-@import url("@nextjs-strapi-boilerplate/tailwind-config/globals.css");
+@import url("@starter-strapi/tailwind-config/globals.css");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

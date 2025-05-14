@@ -1,6 +1,6 @@
 "use server";
 import { strapiFetcher, strapiPost } from "@/lib/api/strapi";
-import type { StrapiResponseCollection } from "@nextjs-strapi-boilerplate/backend";
+import type { StrapiResponseCollection } from "@starter-strapi/backend";
 import slugify from "slugify";
 import type { Article, ArticleCreate } from "./type";
 import { articleAdapter } from "./type";

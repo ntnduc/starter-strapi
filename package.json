@@ -1,7 +1,7 @@
 {
-  "name": "nextjs-strapi-boilerplate",
+  "name": "starter-strapi",
   "private": true,
-  "author": "Abderrahmane MOUZOUNE",
+  "author": "Duc Nguyen",
   "packageManager": "yarn@1.22.19",
   "workspaces": [
     "apps/*",
