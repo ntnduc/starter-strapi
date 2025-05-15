@@ -7,7 +7,7 @@ import type {
   StrapiResponseCollection,
   StrapiUrlParams,
   StrapiUrlPostParams,
-} from "@nextjs-strapi-boilerplate/backend";
+} from "@starter-strapi/backend";
 import type { Metadata } from "next";
 import qs from "qs";
 import type { ApiContentTypeUid } from "./type";
@@ -41,7 +41,7 @@ export function strapiGetMetaData(
 
   const openGraph = {
     type: "website",
-    locale: "fr_FR",
+    locale: "vi_VN",
     title: metadata.metaTitle,
     description: metadata?.metaDescription,
     url: metadata?.canonicalURL ?? pageUrl,
@@ -60,14 +60,6 @@ export function strapiGetMetaData(
     },
   };
 
-  const twitterCard = {
-    card: "summary_large_image",
-    site: APP_CONFIG.twitter,
-    title: metadata?.metaTitle,
-    description: metadata?.metaDescription,
-    image: strapiGetMedia(metadata.metaImage?.data?.attributes?.url),
-  };
-
   return {
     title: metadata.metaTitle,
     description: metadata.metaDescription,
@@ -76,7 +68,6 @@ export function strapiGetMetaData(
     creator: APP_CONFIG.creator,
     authors: APP_CONFIG.authors,
     openGraph,
-    twitter: twitterCard,
   };
 }
 
@@ -149,7 +140,6 @@ async function strapiRequest<
 
   try {
     const response = await fetch(requestUrl, mergedOptions);
-
     return await response.json();
   } catch (error) {
     if (error instanceof StrapiError) {

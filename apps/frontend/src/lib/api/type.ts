@@ -1,4 +1,4 @@
-import type { Common } from "@nextjs-strapi-boilerplate/backend";
+import type { Common } from "@starter-strapi/backend";
 
 export type ApiContentTypeUid = Extract<
   Common.UID.ContentType,

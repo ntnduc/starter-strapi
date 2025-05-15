@@ -1,7 +1,7 @@
 import type {
   GetValues,
   StrapiResponseData,
-} from "@nextjs-strapi-boilerplate/backend";
+} from "@starter-strapi/backend";
 import { z } from "zod";
 
 export type Article = GetValues<"api::article.article"> & {

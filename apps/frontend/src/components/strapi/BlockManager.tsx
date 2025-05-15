@@ -1,4 +1,4 @@
-import type { Common, GetValues } from "@nextjs-strapi-boilerplate/backend";
+import type { Common, GetValues } from "@starter-strapi/backend";
 import StrapiButton from "./strapi-button";
 import StrapiWysiwig from "./strapi-wisiwig";
 

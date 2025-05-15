@@ -13,14 +13,14 @@ export default function Footer() {
         <div>
           <span>© {new Date().getFullYear()} Built by </span>
           <Button variant={"link"} className="px-0" asChild>
-            <Link href={"https://abderrahmanemouzoune.com"} target="_blank">
-              Abderrahmane Mouzoune.
+            <Link href={"https://github.com/ntnduc"} target="_blank">
+              Duc Nguyen
             </Link>
           </Button>
           <span className="ml-1">Powered by </span>
           <Button variant={"link"} className="px-0" asChild>
-            <Link href={"https://www.youzoune.com"} target="_blank">
-              youzoune.com
+            <Link href={"https://github.com/ntnduc"} target="_blank">
+              Duc Nguyen
             </Link>
           </Button>
         </div>
@@ -28,7 +28,7 @@ export default function Footer() {
         <div className="flex items-center gap-5 md:gap-2">
           <Button variant={"ghost"} asChild size={"icon"}>
             <Link
-              href={"https://github.com/AbderrahmaneMouzoune"}
+              href={"https://github.com/ntnduc"}
               className="transition-colors hover:text-primary"
               target="_blank"
             >
@@ -40,7 +40,7 @@ export default function Footer() {
 
           <Button variant={"ghost"} size={"icon"} asChild>
             <Link
-              href={"https://www.linkedin.com/in/abderrahmane-mouzoune/"}
+              href={"https://github.com/ntnduc"}
               className="transition-colors hover:text-primary"
               target="_blank"
             >
@@ -52,7 +52,7 @@ export default function Footer() {
 
           <Button variant={"ghost"} size={"icon"} asChild>
             <Link
-              href={"https://twitter.com/abderrahmane_js"}
+              href={"https://github.com/ntnduc"}
               className="transition-colors hover:text-primary"
               target="_blank"
             >
