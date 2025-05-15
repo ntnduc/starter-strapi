@@ -1,4 +1,0 @@
-{
-  "root": true,
-  "extends": ["@starter-strapi/eslint-config/base"]
-}

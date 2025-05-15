@@ -1,13 +1,9 @@
-"use client";
-
-import { cn } from "@/lib/utils";
-import AnimatedGradientText from "@components/magicui/animated-gradient-text";
-import Image from "next/image";
+'use client'
 
 export function Announcement() {
   return (
     <div className="z-10 flex items-center justify-center">
-      <AnimatedGradientText>
+      {/* <AnimatedGradientText>
         <Image src={"/favicon.ico"} alt={"Logo"} width={20} height={20} />{" "}
         <hr className="mx-2 h-4 w-[1px] shrink-0 bg-gray-300" />{" "}
         <span
@@ -17,7 +13,7 @@ export function Announcement() {
         >
           Introducing Nextrapi
         </span>
-      </AnimatedGradientText>
+      </AnimatedGradientText> */}
     </div>
-  );
+  )
 }
